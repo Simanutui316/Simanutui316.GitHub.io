@@ -167,6 +167,14 @@
                     class="icon-social-facebook"></i></a>
         </div>
     </section>
+    <div class="map" id="contact">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19489.021911993434!2d-122.43654850153091!3d47.121822526075796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549103cbf1ed7a1f%3A0x996438d1ced877c0!2s14413%20C%20St%20S%20%2346%2C%20Parkland%2C%20WA%2098444!5e0!3m2!1sen!2sus!4v1620856396426!5m2!1sen!2sus"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <br />
+        <small><a
+                href="https://www.google.com/maps/place/14413+C+St+S+%2346,+Parkland,+WA+98444/@47.1298975,-122.4319786,15z/data=!4m5!3m4!1s0x549103cbf1ed7a1f:0x996438d1ced877c0!8m2!3d47.1255528!4d-122.4374771"></a></small>
+    </div>
     <!-- Footer-->
     <footer class="footer text-center">
         <div class="container">
@@ -196,6 +204,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <!-- Custom scripts for this template-->
     <script src="js/scripts.js"></script>
+    <script>
+        var x = document.getElementById("demo");
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+
+        function showPosition(position) {
+            x.innerHTML = "Latitude: " + position.coords.latitude +
+                "<br>Longitude: " + position.coords.longitude;
+        }
+    </script>
 </body>
 
 </html>
