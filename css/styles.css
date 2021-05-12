@@ -84,18 +84,18 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
-#resume{
+/* #resume{
   color: white;
   width: 200px;
   /* height: 120px; */
   /* margin: 10px; */
-  display: inline-flex;
-  background: #3f3f3f;
-  border-radius: 5px;
-  font-size: 22px;
-  align-items: center;
-  justify-content: center;
-}
+  /* display: inline-flex; */
+  /* background: #3f3f3f; */
+  /* border-radius: 5px; */
+  /* font-size: 22px; */
+  /* align-items: center; */
+  /* justify-content: center; */
+/* } */
 
 p {
   margin-top: 0;
