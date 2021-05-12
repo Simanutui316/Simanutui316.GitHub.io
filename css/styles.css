@@ -88,6 +88,9 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+#about-me-paragraph{
+  color: black;
+}
 
 abbr[title],
 abbr[data-original-title] {
@@ -7542,6 +7545,7 @@ button.bg-dark:focus {
 .mb-1,
 .my-1 {
   margin-bottom: 0.25rem !important;
+  color: white;
 }
 
 .ml-1,
@@ -7638,6 +7642,7 @@ button.bg-dark:focus {
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
+  color: white;
 }
 
 .ml-5,
